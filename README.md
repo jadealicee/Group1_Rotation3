@@ -14,5 +14,5 @@ Dependencies required to run the code in this repository will be noted in the fi
 
 The scripts in this Repository are to be run in the following order:
 1) [fastSTRUCTURE_prep.py (which utilises both the 'structure.py' and the] ()
-2) [PCA.R which allows for both eigen analysis as well as a PCA scatter graph to be produced] ()
-3) [SplitsTree which will produce a tree] ()
+2) '[PCA.R which allows for both eigen analysis as well as a PCA scatter graph to be produced]' (PCA.R)
+4) [SplitsTree which will produce a tree] ()
