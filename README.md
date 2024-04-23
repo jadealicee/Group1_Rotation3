@@ -13,6 +13,6 @@ The expected outcome of this project was
 Dependencies required to run the code in this repository will be noted in the file '[Dependencies]()'. Code credits will be provided in the file labelled '[Bibliography]()'.
 
 The scripts in this Repository are to be run in the following order:
-1) [fastSTRUCTURE_prep.py (which utilises both the 'structure.py' and the] ()
-2) '[PCA.R which allows for both eigen analysis as well as a PCA scatter graph to be produced](PCA.R)'
-4) [SplitsTree which will produce a tree] ()
+1) [fastSTRUCTURE_prep.py]() which utilises both the 'structure.py' and the
+2) [PCA.R](PCA.R) which allows for both eigen analysis as well as a PCA scatter graph to be produced
+4) [SplitsTree.py]() which will produce a tree
