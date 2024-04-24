@@ -8,8 +8,17 @@ setwd("Path/To/File")
 #for warning message generation
 options(warn=1)
 
+#install all relevant packages 
+install.package("adegenet")
+install.package("adegraphics")
+install.package("vcfR")
+install.package("pegas")
+install.package("stAMPP")
+install.package("ade4")
+install.package("MASS")
+
 #load all relevant packages
-library(adgenet)
+library(adegenet)
 library(adegraphics)
 library(vcfR)
 library(pegas)
