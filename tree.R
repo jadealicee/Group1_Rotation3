@@ -1,4 +1,4 @@
-#frequnecy tree
+#frequency tree
 
 #making of a neighbour-joining tree
 NJtree <- nj(dist(as.matrix(aa.genlight)))
