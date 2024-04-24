@@ -1,0 +1,7 @@
+__Bibliography__
+
+All code associated with fastSTRUCTURE was provided by Levi Yant.
+
+All code associated with PCA and eigen analysis was provided by Levi Yant and Sian Bray, originally written by Filip Kolar in 2017.
+
+The code to create the Neighbour Joining tree was provided by Ana C. da Silva, and inspired by the 'Analysing genome-wide SNP data using adegenet 2.1.5' tutorial. 
