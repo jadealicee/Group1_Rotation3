@@ -1,6 +1,6 @@
 #all code performed on RStudio - Version 4.3.1 (2023-06-16)
 
-#set working directory
+#set working directory to the location of the VCF of interest
 setwd("Path/To/File")
 
 #for warning message generation
@@ -199,7 +199,7 @@ colnames(res$scores) <- paste("PC", 1:nf, sep="")
 #import SNP data from VCF file and read into an object
 vcf <- read.vcfR("file_name.vcf.gz")
 
-#convert VCF to genlight with modified function
+#convert VCF to genlight with modified function. this is done to increase efficiency.
 aa.genlight <- vcfR2genlight.tetra(vcf) 
 
 #add SNP names
