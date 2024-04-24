@@ -3,9 +3,10 @@
 #all code in this script is performed on the HPC
 #dataset has already been thinned
 
-#convert data to fastStructure compatible format
-python3 Cochlearia_create_structure_file.py -v 5kbthin_MAF2pct/ -o 5kbthin_MAF2pct -s true
-#edit file names
+#convert data to fastSTRUCTURE compatible format
+python3 Cochlearia_create_structure_file.py -v input_name/ -o output_name -s true
+#input file should be in the format vcf - variant call format
+#output file will be in the format str - structure format
 
 ###Run fastStructure with K values of 1 through 10 - do this 5 times each###
 ##run choose K each time. this is done to better understand stability##
@@ -43,7 +44,7 @@ python /path/to/faststructure/bin/structure.py -K 9 --input=/Path/To/File --outp
 #k10
 python /path/to/faststructure/bin/structure.py -K 10 --input=/Path/To/File --output=Output_Name --format=str --full 
 
-#view 
+#view - popfiles will be generated from the structures. these are text files
 
 #k1
 python /path/to/bin/distruct.py -K 1 --input=/Path/To/File --output=Path/To/Output/Location --title="K=1"  --popfile=/path/to/popfile_all.txt
