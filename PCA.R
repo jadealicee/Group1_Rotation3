@@ -1,6 +1,4 @@
-#all code performed on R
-
-#may be beneficial to add more comments throughout the code
+#all code performed on RStudio - Version 4.3.1 (2023-06-16)
 
 #set working directory
 setwd("Path/To/File")
