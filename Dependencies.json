@@ -1,0 +1,114 @@
+[
+ {
+  "Dependency": "Adegenet",
+  "Version": "v2.1.10",
+  "Citation": "Link",
+  "Method of Installation": "install.package on R",
+  "Language": "R"
+ },
+ {
+  "Dependency": "Ade4",
+  "Version": "v1.7",
+  "Citation": "Link",
+  "Method of Installation": "install.package on R",
+  "Language": "R"
+ },
+ {
+  "Dependency": "stAMPP",
+  "Version": "v1.6.3",
+  "Citation": "Link",
+  "Method of Installation": "install.package on R",
+  "Language": "R"
+ },
+ {
+  "Dependency": "vcfR",
+  "Version": "v1.15.0",
+  "Citation": "Link",
+  "Method of Installation": "install.package on R",
+  "Language": "R"
+ },
+ {
+  "Dependency": "MASS",
+  "Version": "v7.3",
+  "Citation": "Link",
+  "Method of Installation": "install.package on R",
+  "Language": "R"
+ },
+ {
+  "Dependency": "Adegraphics",
+  "Version": "v1.02-21",
+  "Citation": "Link",
+  "Method of Installation": "install.package on R",
+  "Language": "R"
+ },
+ {
+  "Dependency": "pegas",
+  "Version": "v1.3",
+  "Citation": "Link",
+  "Method of Installation": "install.package on R",
+  "Language": "R"
+ },
+ {
+  "Dependency": "fastSTRUCTURE",
+  "Version": "v1.0",
+  "Citation": "Link",
+  "Method of Installation": "conda environment",
+  "Language": "Python2"
+ },
+ {
+  "Dependency": "NumPy",
+  "Version": "v1.26.0",
+  "Citation": "Link",
+  "Method of Installation": "imported in structure.py",
+  "Language": "Python2"
+ },
+ {
+  "Dependency": "parse_bed",
+  "Version": "v1.0",
+  "Citation": "Link",
+  "Method of Installation": "imported in structure.py",
+  "Language": "Python2"
+ },
+ {
+  "Dependency": "parse_str",
+  "Version": "v1.0",
+  "Citation": "Link",
+  "Method of Installation": "imported in structure.py",
+  "Language": "Python2"
+ },
+ {
+  "Dependency": "random",
+  "Version": "n\/a",
+  "Citation": "Link",
+  "Method of Installation": "imported in structure.py",
+  "Language": "Python2"
+ },
+ {
+  "Dependency": "getopt",
+  "Version": "n\/a",
+  "Citation": "Link",
+  "Method of Installation": "imported in structure.py",
+  "Language": "Python2"
+ },
+ {
+  "Dependency": "sys",
+  "Version": "v3.8",
+  "Citation": "Link",
+  "Method of Installation": "imported in structure.py",
+  "Language": "Python2"
+ },
+ {
+  "Dependency": "pdb",
+  "Version": "v3.7",
+  "Citation": "Link",
+  "Method of Installation": "imported in structure.py",
+  "Language": "Python2"
+ },
+ {
+  "Dependency": "warnings",
+  "Version": "v3.7",
+  "Citation": "Link",
+  "Method of Installation": "imported in structure.py",
+  "Language": "Python2"
+ }
+]
