@@ -11,7 +11,7 @@ The first aim of this project was to sense-check the dataset. This was done by u
 The expected outcome of this project was
 
 ## Contents
-Dependencies required to run the code in this repository are noted in the file '[Dependencies](Dependencies.xlsx)'. Code credits are provided in the file labelled '[Bibliography]()'.
+Dependencies required to run the code in this repository are noted in the file '[Dependencies](Dependencies.json)'. Code credits are provided in the file labelled '[Bibliography]()'.
 
 __The scripts in this Repository are to be run in the following order:__
 1) [fastSTRUCTURE_prep.py](fastSTRUCTURE_prep.py) which utilises both 'structure.py' and 'Cochlearia_create_structure_file.py'
