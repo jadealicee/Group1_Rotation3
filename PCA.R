@@ -139,7 +139,8 @@ res <- list()
 res$eig <- eigRes$values
 nf <- min(nf, sum(res$eig > 1e-10))
 
-res$matprod <- allProd #use for debugging
+#use for debugging
+res$matprod <- allProd 
 li = XQU = V/Lambda^(1/2)
 
 eigRes$vectors <- eigRes$vectors * sqrt(nInd(x))
@@ -171,7 +172,6 @@ if(loadings){
 	}
 
 #format the output
-
 colnames(res$scores) <- paste("PC", 1:nf, sep="")
   if(!is.null(indNames(x))){
     rownames(res$scores) <- indNames(x)
@@ -222,10 +222,10 @@ pca.1 < glPcaFast(aa.genlight, nf = 300)
 scatter(pca.1, posi = "bottomright")
 loadigplot(pca.1)
 
-# proportion of explained variance by first three axes
-pca.1$eig[1]/sum(pca.1$eig) # proportion of variation explained by 1st axis
-pca.1$eig[2]/sum(pca.1$eig) # proportion of variation explained by 2nd axis
-pca.1$eig[3]/sum(pca.1$eig) # proportion of variation explained by 3rd axis
+#explained variance proportion
+pca.1$eig[1]/sum(pca.1$eig) #1st axis
+pca.1$eig[2]/sum(pca.1$eig) #2nd axis
+pca.1$eig[3]/sum(pca.1$eig) #3rd axis
 
 #colour the populations in the graph
 col <- funky(10)
@@ -233,8 +233,7 @@ s.class(pca.1$scores, pop(aa.genlight),  xax=1, yax=2, col=transp(col,.6),
         ellipseSize=0, starSize=0, ppoints.cex=4, paxes.draw=T, pgrid.draw =F)
 
 #save the figures in a PDF format
-
-pdf ("PCA_all_SNPs_ax12_1K_less.pdf", width=14, height=7)
+pdf ("PCA.pdf", width=14, height=7)
 
 g1 <- s.class(pca.1$scores, pop(aa.genlight),  xax=1, yax=2, col=transp(col,.6), 
               ellipseSize=0, starSize=0, ppoints.cex=4, paxes.draw=T, pgrid.draw =F, plot = FALSE)
