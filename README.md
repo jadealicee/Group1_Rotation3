@@ -10,6 +10,7 @@ The first aim of this project was to sense-check the dataset. This was done by u
 ## Expected Outcomes
 The expected outcome of this project was
 
+## Contents
 Dependencies required to run the code in this repository are noted in the file '[Dependencies]()'. Code credits are provided in the file labelled '[Bibliography]()'.
 
 The scripts in this Repository are to be run in the following order:
