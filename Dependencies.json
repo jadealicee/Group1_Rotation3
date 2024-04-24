@@ -2,112 +2,112 @@
  {
   "Dependency": "Adegenet",
   "Version": "v2.1.10",
-  "Citation": "Link",
+  "Citation": "https://academic.oup.com/bioinformatics/article/27/21/3070/218892?login=false",
   "Method of Installation": "install.package on R",
   "Language": "R"
  },
  {
   "Dependency": "Ade4",
   "Version": "v1.7",
-  "Citation": "Link",
+  "Citation": "https://www.jstatsoft.org/article/view/v022i04",
   "Method of Installation": "install.package on R",
   "Language": "R"
  },
  {
   "Dependency": "stAMPP",
   "Version": "v1.6.3",
-  "Citation": "Link",
+  "Citation": "https://onlinelibrary.wiley.com/doi/10.1111/1755-0998.12129",
   "Method of Installation": "install.package on R",
   "Language": "R"
  },
  {
   "Dependency": "vcfR",
   "Version": "v1.15.0",
-  "Citation": "Link",
+  "Citation": "https://onlinelibrary.wiley.com/doi/10.1111/1755-0998.12549",
   "Method of Installation": "install.package on R",
   "Language": "R"
  },
  {
   "Dependency": "MASS",
   "Version": "v7.3",
-  "Citation": "Link",
+  "Citation": "https://www.stats.ox.ac.uk/pub/MASS4/",
   "Method of Installation": "install.package on R",
   "Language": "R"
  },
  {
   "Dependency": "Adegraphics",
   "Version": "v1.02-21",
-  "Citation": "Link",
+  "Citation": "https://journal.r-project.org/articles/RJ-2017-042/",
   "Method of Installation": "install.package on R",
   "Language": "R"
  },
  {
   "Dependency": "pegas",
   "Version": "v1.3",
-  "Citation": "Link",
+  "Citation": "https://academic.oup.com/bioinformatics/article/26/3/419/215731?login=false",
   "Method of Installation": "install.package on R",
   "Language": "R"
  },
  {
   "Dependency": "fastSTRUCTURE",
   "Version": "v1.0",
-  "Citation": "Link",
+  "Citation": "https://pubmed.ncbi.nlm.nih.gov/24700103/",
   "Method of Installation": "conda environment",
   "Language": "Python2"
  },
  {
   "Dependency": "NumPy",
   "Version": "v1.26.0",
-  "Citation": "Link",
+  "Citation": "https://www.nature.com/articles/s41586-020-2649-2",
   "Method of Installation": "imported in structure.py",
   "Language": "Python2"
  },
  {
   "Dependency": "parse_bed",
   "Version": "v1.0",
-  "Citation": "Link",
+  "Citation": "https://pubmed.ncbi.nlm.nih.gov/24700103/",
   "Method of Installation": "imported in structure.py",
   "Language": "Python2"
  },
  {
   "Dependency": "parse_str",
   "Version": "v1.0",
-  "Citation": "Link",
+  "Citation": "https://pubmed.ncbi.nlm.nih.gov/24700103/",
   "Method of Installation": "imported in structure.py",
   "Language": "Python2"
  },
  {
   "Dependency": "random",
   "Version": "n\/a",
-  "Citation": "Link",
+  "Citation": "https://docs.python.org/3/library/random.html",
   "Method of Installation": "imported in structure.py",
   "Language": "Python2"
  },
  {
   "Dependency": "getopt",
   "Version": "n\/a",
-  "Citation": "Link",
+  "Citation": "https://man7.org/linux/man-pages/man3/getopt.3.html",
   "Method of Installation": "imported in structure.py",
   "Language": "Python2"
  },
  {
   "Dependency": "sys",
   "Version": "v3.8",
-  "Citation": "Link",
+  "Citation": "https://docs.python.org/3/library/sys.html",
   "Method of Installation": "imported in structure.py",
   "Language": "Python2"
  },
  {
   "Dependency": "pdb",
   "Version": "v3.7",
-  "Citation": "Link",
+  "Citation": "https://docs.python.org/3/library/pdb.html",
   "Method of Installation": "imported in structure.py",
   "Language": "Python2"
  },
  {
   "Dependency": "warnings",
   "Version": "v3.7",
-  "Citation": "Link",
+  "Citation": "https://docs.python.org/3/library/warnings.html",
   "Method of Installation": "imported in structure.py",
   "Language": "Python2"
  }
